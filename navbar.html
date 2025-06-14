@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -20,46 +21,55 @@
 
     <!-- the home section -->
      <section>
-        <h3>Asogbon Comfort</h3>
-        <p>Web Developer</p>
-        
-        <img src="profile_picture.jpg" width="200px" height="250px"><br>
+        <div class="container">
+        <h3>Asogbon Comfort Adeseye</h3>
+         <img src="profile_picture.jpg" width="200px" height="250px"><br>
+         <p>Web Developer</p>
         <audio controls>
             <source src="portfolio-audio.mp3" type="audio/mpeg"> Audio
         </audio>
+        </div>
         
      </section>
 
     <!-- the about section -->
-     <section id="about">
+     <section id="about" class="about-section">
+        <div class="about">
         <h3>About Me</h3>
-        <p>
+        <p class="about-section">
             Hi. <br> My name is Asogbon Comfort Adeseye. <br>
             I'm a student currently undergoing SIWES(Student Industrial Work Experience Scheme) and learning web development and building a foundation for career in tech. <br>
             Before shifting paths, I pursued modeling, but now I am exploring the tech world and really enjoying the process of building things from scratch <br>
             Switching from fashion to tech might seem random, but both worlds have taught me a lot about creativity and structure. Right now, I am just focused on learning and growing.
-            Whether I am coding a layout or mapping out a peronal project, I am always learning, experimenting and evolving. <br>
+            Whether I am coding a layout or mapping out a personal project, I am always learning, experimenting and evolving. <br>
             This portfolio is part of my learning journey.
         </p>
+        </div>
      </section>
 
      <!-- the work section -->
       <section id="work">
+        <div class="work">
         <h3>Work</h3>
-        <p>Still a beginner, so this is the first project I'm working on has I started web development.
-            This is Created using only HTML. It is a simple way for me to track my progress and practice using Git for version control.
+        <p class="work-section">Still a beginner, so this is the first project I'm working on as I started web development.
+            This is Created using only HTML and CSS. It is a simple way for me to track my progress and practice using Git for version control.
         </p>
+        </div>
       </section>
 
       <!-- the resume section -->
        <section id="resume">
+        <div>
         <h3>My Resume</h3>
         <table>
+            <thead>
             <tr>
                 <th>Section</th>
                 <th>Details</th>
             </tr>
+            </thead>
 
+            <tbody>
             <tr>
                 <td>
                     Education
@@ -74,7 +84,9 @@
                 <li>Git and GitHub</li>
             </ol></td>
         </tr>
+        </tbody>
         </table>
+        </div>
 
     <h4>Experience</h4>
     <p>Currently undergoing industrial training to gain real-world exposure to tech and development
@@ -87,14 +99,12 @@
             <h3>Contact Me</h3>
             <form>
                 <label> Your Name:</label><br>
-                <input type="text" placeholder="Type your name here"><br>
-
+                <input type="text" placeholder="Type your name here" class="name"><br>
                 <label> Email address:</label><br>
-                <input type="email" placeholder="Enter your email address" value="e.g abcd1@gmail.com"><br>
-                <label> Send a Message:</label><br>
-                <textarea name="message" cols="30" rows="10" placeholder="Type a Message"></textarea><br>
+                <input type="email" placeholder="Enter your email address" class="e-mail"><br>
+                <label for="message"> Send a Message:</label><br>
+                <textarea id="message" cols="30" rows="10" placeholder="Type a Message" class="text-area"></textarea><br>
                 <input type="Submit">
-
             </form>
 
             

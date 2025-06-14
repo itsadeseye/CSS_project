@@ -1,0 +1,89 @@
+  /* imported roboto font from google fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5EBE0;
+}
+
+/* for navbar */
+nav ul li {
+    display: inline;
+}
+
+nav {
+    display: flex;
+    padding: 1rem;
+    margin-left: 0;
+    border: 1px solid #EDEDE9;
+    background-color: #D5BDAF;
+    height: 40px;
+    width: 98%;
+}
+
+nav ul li {
+    text-align: end;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+/* home section */
+.container {
+    text-align: center;
+    border: 1px solid #D5BDAF;
+    background-color: #EDEDE9;
+}
+
+img {
+    border-radius: 50%;
+}
+
+/* Work */
+.work {
+    border: 1px solid #D5BDAF;
+    background-color: #EDEDE9;
+    padding: 10px;
+}
+
+/* My Resume */
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #D5BDAF ;
+    border: 1px solid;
+}
+
+td {
+    background-color: #EDEDE9;
+    border: 1px solid;
+}
+
+
+/* Experience */
+
+/* contact */
+.name {
+    background-color: #EDEDE9;
+}
+.text-area {
+    background-color: #EDEDE9;
+}
+
+.e-mail {
+    background-color: #EDEDE9 ;
+}
+
+/* footer */
+footer {
+    border: 1px solid #EDEDE9;
+    margin-top: 20px;
+    background-color: #D5BDAF;
+    height: 110px;
+    padding: 10px;
+}
+
